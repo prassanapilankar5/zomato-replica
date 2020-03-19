@@ -1,0 +1,439 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Add your css here */
+.h-conatiner {
+  background-color: green;
+}
+
+div {
+  /*background-color:azure;*/
+}
+
+.F_R {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  padding: 22px;
+}
+
+a.create:hover {
+  text-decoration: none;
+  color: rgba(232, 232, 232, 0.5);
+  transition: 0.7s;
+}
+
+.app {
+  position: absolute;
+}
+
+a.getapp:hover, a.book:hover, a.order:hover, a.gold:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+a.order:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+a.book:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+a.gold:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.log {
+  margin-top: 35px;
+  margin-left: 1000px;
+}
+
+.login, .create, .F_R {
+  color: white;
+}
+
+a.login:hover, a.create:hover, a.F_R:hover {
+  text-decoration: none;
+  color: rgba(232, 232, 232, 0.5);
+  transition: 0.4s;
+}
+
+.navbar {
+  margin-right: 20px;
+  float: right;
+}
+
+.g_app {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.getapp, .book, .order, .gold {
+  color: black;
+  font-weight: 600;
+}
+
+.backimage {
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+}
+
+#search-rest {
+  margin-left: 410px;
+  margin-top: 275px;
+  position: static;
+}
+
+.banner {
+  position: static;
+}
+
+#search-btn {
+  background-color: #ff050a;
+  color: white;
+  padding: 8px;
+  padding-right: 17px;
+  padding-left: 17px;
+  position: relative;
+}
+
+input[type=text] {
+  padding: 10px 5px;
+  line-height: 15px;
+}
+
+.image {
+  position: absolute;
+  top: 199px;
+  left: 610px;
+}
+
+.para {
+  position: absolute;
+  top: 325px;
+  left: 410px;
+}
+
+.order-btn {
+  margin-left: 50px;
+}
+
+button.detect-btn {
+  border-radius: 10px;
+  padding: 9px 12px;
+  background-color: white;
+  color: black;
+  border: 1px gray solid;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button.order-btn {
+  border-radius: 11px;
+  background-color: limegreen;
+  border: 1px;
+  padding: 10px 35px;
+}
+
+.order-btn:hover {
+  background-color: darkgreen;
+}
+
+.detect-btn:hover {
+  background-color: gray;
+}
+
+.widget {
+  margin-left: 45px;
+  margin-top: 115px;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  background-color: #F8F8FF;
+}
+
+div#widget {
+  margin-left: 45px;
+  margin-top: 115px;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  background-color: #F8F8FF;
+}
+
+.ad {
+  margin-left: 395px;
+  margin-top: -330px;
+}
+
+.code {
+  color: limegreen;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(8, 160px);
+  grid-gap: 3px;
+  justify-items: center;
+  text-align: center;
+}
+
+#loc-subtitle, #cat-subtitle {
+  color: grey;
+}
+
+.locality-list, .grid {
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+  justify-content: space-around;
+  grid-template-columns: 180px 180px 180px;
+}
+
+.footer-wrapper {
+  color: white;
+}
+
+.footer {
+  background-color: grey;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.select {
+  position: relative;
+  left: 1150px;
+}
+
+.about {
+  color: white;
+}
+
+.flex {
+  line-height: 2.5;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45px;
+}
+
+.grid {
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.t_c {
+  display: grid;
+  grid-template-columns: repeat(6, 80px);
+  margin-left: 20px;
+}
+
+.country {
+  margin-left: 45px;
+}
+
+.create {
+  border: 1px white solid;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 700px) {
+  li, a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .category-list {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+  }
+
+  .locality-list, .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fo_o {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fo_rest {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 900px) {
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .search-restaurant {
+    text-align: center;
+  }
+  .search-restaurant #search-rest {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
